@@ -1,1 +1,1 @@
-# landing-page
+This is my first attempt at making a website from scratch. I will be using the images provided by the OP as an example. 
