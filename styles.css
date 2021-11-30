@@ -75,6 +75,41 @@ li {
     border-radius: 8px;
 }
 
-#image {
+.image {
     width:300px;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.button1 {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2973;
+    padding-bottom: 20px;
 }
