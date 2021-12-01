@@ -87,8 +87,8 @@ li {
 
 .button1 {
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #3882f6;
     border-radius: 8px;
 }
@@ -99,17 +99,122 @@ li {
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    height: 360px;
 }
 
 .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 800px;
 }
 
 #info {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2973;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.bottom-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 360px;
+}
+
+.box {
+    height:360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.actual-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 800px;
+    text-align: center;
+}
+
+.author {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: end;
+}
+
+.callbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    height: 120px;
+    width: 900px;
+}
+
+.call-box {
+    color: ivory;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#CALL {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.BUTTON3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ivory;
+    width: 90px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#trademark {
+    color: ivory;
+    font-size: 16px;
 }
